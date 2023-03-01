@@ -1,2 +1,5 @@
 # Contains a set of configuration files (. xml) for your project 
 .idea/
+.gradle
+build/
+
