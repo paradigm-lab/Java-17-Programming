@@ -24,9 +24,15 @@ Note:
 * An edition is a variation of a Java platform (JDK) assembled for a specific purpose.
 
 ## There are four java platform editions:
-* Java Platform SE (Java SE): This include the JVM, JCL and other tools and utilities.
+* Java Platform Standard Edition (Java SE): This include the JVM, JCL and other tools and utilities.
 * Java Platform Enterprise Edition (Java EE)
 * Java Platform Micro Edition (Java ME)
 * Java Card
+    * Java Card Classic Edition
+    * Java Card Connected Edition
 
 ## Commands, Tools and Utilities
+* javac: This reads a `.java` file, compiles it, and creates one or more corresponding `.class` files, depending on how many java classes are defined in the .java file.
+* java: This executes a `.class` file
+* jcmd: Facilitates communication with, and diagnosis of, any currently running java process (JVM) and has many options. But in its simplest form, without any options, it lists all currently running java process and their Process IDs (PIDs).
+You can use it to see whether you have runaway Java process. If you have, you can then kill such a process using the PID provided.
