@@ -1,6 +1,11 @@
 plugins {
     id 'java'
     id 'java-library'
+    id 'application'
+}
+
+application {
+    mainClass = 'com.mywork.myproject.HelloWorld'
 }
 
 repositories {
