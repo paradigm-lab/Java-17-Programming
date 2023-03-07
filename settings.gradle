@@ -1,1 +1,3 @@
 rootProject.name = 'Java-17-Programming'
+
+include 'beginner'
