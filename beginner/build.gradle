@@ -5,7 +5,7 @@ plugins {
 }
 
 application {
-    mainClass = 'com.mywork.myproject.HelloWorld'
+    mainClass = 'com.mywork.myproject.Main'
 }
 
 repositories {
